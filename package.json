@@ -1,0 +1,12 @@
+{
+  "name": "prime-tables",
+  "version": "1.0.0",
+  "description": "Coding exercise - generates a prime numbers multiplication table",
+  "main": "generatePrimeTable.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}

@@ -1,4 +1,4 @@
-const buildGrid = require('../buildGrid');
+const buildGrid = require('../src/buildGrid');
 
 test('builds the correct multiplication grid', () => {
     expect(buildGrid([2, 3, 5])).toEqual([

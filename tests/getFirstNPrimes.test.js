@@ -1,4 +1,4 @@
-const getFirstNPrimes = require('../getFirstNPrimes');
+const getFirstNPrimes =require('../src/getFirstNPrimes');
 
 test('returns the first 5 prime numbers in order', () => {
     expect(getFirstNPrimes(5)).toEqual([2, 3, 5, 7, 11]);

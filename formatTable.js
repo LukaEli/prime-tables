@@ -6,7 +6,7 @@
  */
 function formatTable(primes, grid) {
     // Build the header row: blank cell, then each prime
-    let header = "| ";
+    let header = "|  | ";
     for (let i = 0; i < primes.length; i++) {
         header += primes[i] + "| ";
     }

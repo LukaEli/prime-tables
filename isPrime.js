@@ -4,7 +4,7 @@
  * @returns {boolean} - Returns true if the number is prime, false otherwise.
  */
 function isPrime(num){
-    if(num <= 1) return false;
+    if(isNaN(num) || num <= 1) return false;
     let divisor = 2;
 
     // Checking divisors up to the square root is enough

@@ -11,3 +11,7 @@ test('returns false for a non-prime number', () => {
 test('returns false for numbers less than 2', () => {
     expect(isPrime(1)).toBe(false);
 });
+
+test('returns false when given something that is not a number', () => {
+    expect(isPrime(NaN)).toBe(false);
+});

@@ -1,5 +1,6 @@
 const getFirstNPrimes = require('./getFirstNPrimes');
 const buildGrid = require('./buildGrid');
+const formatTable = require('./formatTable');
 
 // Get user input from command line arguments
 const UserInput = process.argv[2];
@@ -16,4 +17,5 @@ if (isNaN(n) || n < 1) {
 
 const primes = getFirstNPrimes(n);
 const grid = buildGrid(primes);
-console.log(grid);
+const table = formatTable(primes, grid);
+console.log(table);

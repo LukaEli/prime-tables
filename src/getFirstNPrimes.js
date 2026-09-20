@@ -1,4 +1,4 @@
-const isPrime = require('./src/isPrime');
+const isPrime = require('./isPrime')
 
 /**
  * Function to get the first N prime numbers.

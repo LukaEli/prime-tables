@@ -1,6 +1,6 @@
-const getFirstNPrimes = require('./getFirstNPrimes');
-const buildGrid = require('./buildGrid');
-const formatTable = require('./formatTable');
+const getFirstNPrimes = require('./src/getFirstNPrimes')
+const buildGrid = require('./src/buildGrid')
+const formatTable = require('./src/formatTable')
 
 // Get user input from command line arguments
 const UserInput = process.argv[2];
